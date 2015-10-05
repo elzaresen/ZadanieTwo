@@ -1,0 +1,29 @@
+body {
+	margin: 0;
+}
+#blurryscroll{
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 5rem;
+	overflow: hidden;
+	position: fixed;
+	-webkit-filter: blur(10px);
+	filter: blur(10px);
+}
+#sky {
+	margin: 0;
+	background: url('back.png');
+	background-size: cover;
+	background-attachment: fixed;
+	padding: 2rem;
+	height: 780px;
+	background-position: center center;
+}
+.txt{
+	width: 66%;
+	margin: 0 auto;
+	font-size: 22px;
+	font-family: Segoe UI;
+	padding: 25px;
+}
